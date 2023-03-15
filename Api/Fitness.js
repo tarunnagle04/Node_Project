@@ -1,25 +1,28 @@
 const get = (req, res) => {
     res.send([
         {
-            img: 'assets/vrkasana.jpg',
-            title: 'Tree Pose — Vrksasana',
-            description: 'Start by standing straight for this pose. Bring your hands together in the prayer position and lift them over your head. Balance on your right leg. Bend your left knee out to the left side and press your left foot to the inner thigh of your right leg. Hold for 30 seconds. Switch legs and repeat.'
-        },
-        {
-            img: 'assets/balasana.jpg',
-            title: `Child's Pose — Balasana`,
-            description: 'Child’s Pose is one of the most healing yoga poses, and it’s my favorite of them all,” says Cullis. “It awakens the connection between the breath and body and sends calming energy through all the muscles.'
-        },
-        {
-            img: 'assets/tadasana.jpg',
-            title: 'Mountain Pose — Tadasana',
-            description: 'Stand still, with your chest open and broad and your hands at your sides, and feel your feet on the floor and the sensations in your legs and back.'
-        },
-        {
-            img: 'assets/viparita.jpg',
-            title: 'Legs-up-the-Wall Pose — Viparita Karani ',
-            description: 'This is a great ending pose for beginners and those experienced at yoga alike. Lie on the floor with your butt right up against a wall. "Walk" your legs straight up the wall so that your body is in an L shape with your torso flat on the floor and perpendicular to the wall.'
-        }
+            img: 'https://www.artofliving.org/sites/www.artofliving.org/files/styles/original_image/public/wysiwyg_imageupload/tree%20pose.jpg.webp?itok=4tYNxjPC',
+            title: 'YOGA POSES',
+            description: 'The practice of yoga goes back thousands of years. While originally an oral tradition, parts of this beautiful heritage have been preserved in texts and commentaries like the Yoga Sutras of Patanjali. There, Sage Patanjali describes the poses, called asanas, as one of the eight limbs of yoga..'
+          },
+          
+          {
+            img: 'https://www.artofliving.org/sites/www.artofliving.org/files/styles/original_image/public/wysiwyg_imageupload/cobra%20pose.jpg.webp?itok=jpH3j_Ho',
+            title: 'YOGA',
+            description: 'The practice of yoga goes back thousands of years. While originally an oral tradition, parts of this beautiful heritage have been preserved in texts and commentaries like the Yoga Sutras of Patanjali. There, Sage Patanjali describes the poses, called asanas, as one of the eight limbs of yoga..'
+          },
+          
+          {
+            img: 'https://www.artofliving.org/sites/www.artofliving.org/files/styles/original_image/public/wysiwyg_imageupload/child%27s%20pose.jpg.webp?itok=nQUVZx9W',
+            title: 'YOG',
+            description: 'The practice of yoga goes back thousands of years. While originally an oral tradition, parts of this beautiful heritage have been preserved in texts and commentaries like the Yoga Sutras of Patanjali. There, Sage Patanjali describes the poses, called asanas, as one of the eight limbs of yoga..'
+          },
+          
+          {
+            img: 'https://www.artofliving.org/sites/www.artofliving.org/files/styles/original_image/public/wysiwyg_imageupload/downward%20dog.jpg.webp?itok=9K-nwI7K',
+            title: 'POSES',
+            description: 'The practice of yoga goes back thousands of years. While originally an oral tradition, parts of this beautiful heritage have been preserved in texts and commentaries like the Yoga Sutras of Patanjali. There, Sage Patanjali describes the poses, called asanas, as one of the eight limbs of yoga..'
+          },
     ])
 }
 

@@ -1,22 +1,22 @@
 const get = (req, res) => {
     res.send([
         {
-            img: 'assets/angualr.png',
-            title: 'ANGULAR',
-            description: 'Angular is a TypeScript-based, free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.',
-            developer: 'Google'
+            img: 'https://imgs.search.brave.com/1oMRM4Ot2jtWMu22rU-vdTgoaTVz54O7yOL9tVKseLk/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9f/NWRodjhhN18zVS9t/YXhyZXNkZWZhdWx0/LmpwZw',
+            title: 'RUST',
+            description: 'The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night.',
+            developer: 'Unknown'
         },
         {
-            img: 'assets/react.png',
+            img: 'https://imgs.search.brave.com/BWAPiGejYkq-HspxHr3hXq7BdIVQYmk-n5pBAjOr9-A/rs:fit:1200:1126:1/g:ce/aHR0cHM6Ly93d3cu/ZmlsZXBpY2tlci5p/by9hcGkvZmlsZS9T/VkZRWlFBeVJwcUoz/MWY2TE5HZQ',
             title: 'REACT',
-            description: 'React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.',
-            developer: 'Meta and community'
+            description: 'React components implement a render() method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by render() via this.props.',
+            developer: 'META ∞'
         },
         {
-            img: 'assets/node.webp',
-            title: 'NODE-JS',
-            description: 'Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.',
-            developer: 'Microsoft Corporation, Ryan Dahl, OpenJS Foundation, Bryan Cantrill'
+            img: 'https://imgs.search.brave.com/dxd0HDWNJNmgXwcKob0uUirY__0vYdp6AKW_kGH0jpg/rs:fit:1098:577:1/g:ce/aHR0cHM6Ly9tbWEu/cHJuZXdzd2lyZS5j/b20vbWVkaWEvNTk5/MDUzL01vbmdvREJf/TG9nby5qcGc_cD1m/YWNlYm9vaw',
+            title: 'MongoDB',
+            description: '- Get your ideas to market faster with a developer data platform built on the leading modern database. MongoDB makes working with data easy..',
+            developer: 'Microsoft'
         }
     ])
 }
